@@ -1,0 +1,15 @@
+[package]
+name = "Learn-to-Earn-Platform"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule='0x14ed4ce865056647db15d0e5d65e2930bab760237fc8e22a10d3373d06f7d54a'
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
